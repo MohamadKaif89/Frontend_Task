@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+     <div class="hero">
+    <h1>All Products</h1>
+  </div>
+  <div class="controls">
+    <span id="product-count">6 Products</span>
+    <div class="select-wrapper">
+  <select id="sort-by">
+    <option value="">Sort By</option>
+    <option value="asc">Price: Low to High</option>
+    <option value="desc">Price: High to Low</option>
+  </select>
+</div>
+  </div>
+  <div class="empty-state" id="empty-state">
+    <img src="./img/image 5.png" alt="Empty" />
+    <p class="message">Oops... looks like the shelves are empty!</p>
+ <p class="sub-message">Smash that "Load Products" button to fix this tragic situation.</p>
+
+    <button class="btn-load" onclick="loadProducts()">Load Products</button>
+  </div>
+  <div class="products" id="product-list"></div>
+  <script src="./script.js"></script>
+</body>
+</html>

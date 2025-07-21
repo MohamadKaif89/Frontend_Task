@@ -4,6 +4,8 @@ This is a simple ecommerce collection page built using **HTML, CSS, and JavaScri
 
 It fetches product data from an API and displays it with smooth animations. The layout is fully responsive for both desktop and mobile views.
 
+Hosted URL: https://mohamadkaif89.github.io/Frontend_Task/
+
 ---
 
 ## ✅ Features
